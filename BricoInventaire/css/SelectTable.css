@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 9, 2015, 4:24:49 PM
+    Author     : PFS
+*/
+
+table.SelectTable
+{
+    border-collapse: collapse;
+}
+table.SelectTable, th.SelectTable, td.SelectTable 
+{
+   border: 1px solid black;
+   text-align: center;
+   vertical-align: center;
+   background-color: white;
+   color: black;
+}
+
+td.SelectTableMandOK
+{
+   border: 1px solid black;
+   text-align: center;
+   vertical-align: center;
+   background-color: #1CFF68;
+   color: black;    
+}
+
+td.SelectTableMandKO
+{
+   border: 1px solid black;
+   text-align: center;
+   vertical-align: center;
+   background-color: #CC0000;
+   color: white;    
+}
